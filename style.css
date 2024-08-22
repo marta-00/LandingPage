@@ -30,17 +30,20 @@ main {
 main img {
     width: 90%;
     height: 90%;
+    grid-row: 1/2;
 }
 
 main h1{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 2.7em;
+    grid-row: 2;
 }
 
 main p {
     color: white;
     font-family: 'Open Sans', sans-serif;
+    grid-row: inherit;
 }
 
 main button {
@@ -53,6 +56,7 @@ main button {
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.326);
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    grid-row: 2;
 
 }
 
