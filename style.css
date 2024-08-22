@@ -19,6 +19,18 @@ header img {
     height: 200px;
     width: 200px;
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+main img {
+    width: 90%;
+    height: 90%;
+}
 
 main h1{
     color: white;
