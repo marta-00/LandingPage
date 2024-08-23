@@ -16,7 +16,7 @@ header {
     height: 150px;
     grid-column: 2 / 5;
     grid-row-start: 1;
-    padding: 5px;
+    padding: 10px;
 }
 
 
