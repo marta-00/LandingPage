@@ -67,6 +67,16 @@ header {
 .media {
     grid-row: 3 / 4;
     grid-column: 3 / 4;
+    list-style-type: none;
+}
+
+.media li {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: right;
+    padding: 10px 15px;
+    margin: 10px;
 }
 
 footer {
