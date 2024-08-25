@@ -92,7 +92,7 @@ footer {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
 
     body {
         grid: repeat(5, auto) / 1fr;
@@ -150,7 +150,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 900px) {
+@media (min-width: 900px) {
 
     .foto img {
         width: 100%;
